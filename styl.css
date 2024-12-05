@@ -1,0 +1,687 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line1 {
+    width: 100%;
+    height: 750px;
+    background-image: url("image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+nav {
+    display: flex;
+}
+
+nav h2 {
+    position: relative;
+    left: 100px;
+    margin-top: 45px;
+    font-family: serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 500PX;
+}
+
+nav a {
+    padding-left: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+
+.line1 h1 {
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.line1 p {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.line1 input {
+    width: 140PX;
+    height: 40PX;
+    background-color: red;
+    margin-left: 45%;
+    border-radius: 5PX;
+    border: none;
+    margin-top: 25px;
+    color: white;
+}
+
+.line1 input:hover{
+    background-color: black;
+} 
+.line2 {
+    background-color: white;
+    width: 900px;
+    height: 260px;
+    margin: auto;
+    position: relative;
+    bottom: 130px;
+    box-shadow: 0px 0px 15px gray;
+    padding: 40px 60px;
+}
+
+.line2A {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+select {
+    margin-left: 20px;
+    width: 130px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    right: 110px;
+    background-color: rgb(245, 239, 239);
+    border: none;
+    border-radius: 5px;
+    color: gray;
+}
+select:hover{
+    color: black;
+} 
+
+.line2B input {
+    width: 140PX;
+    height: 55PX;
+    position: relative;
+    left: 640PX;
+    bottom: 140PX;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.line2B input:hover{
+    background-color: black;
+}
+
+.line3 {
+    display: flex;
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.line3 img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+.line3A {
+    border: 1px solid rgb(211, 210, 210);
+    text-align: center;
+    padding: 50px 20px;
+}
+.line3A:hover{
+    background-color: rgb(243, 235, 235);
+}
+.line3 h3 {
+    margin-bottom: 20px;
+}
+
+.line3A p {
+    line-height: 30px;
+    color: gray;
+}
+
+.line3A div {
+    width: 30px;
+    height: 2px;
+    background-color: red;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.line3B {
+    border: 1px solid rgb(211, 210, 210);
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 50px 20px;
+}
+.line3B:hover{
+    background-color: rgb(243, 235, 235);
+}
+.line3B p {
+    line-height: 30px;
+    color: gray;
+}
+
+.line3B div {
+    width: 30px;
+    height: 2px;
+    background-color: red;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.line4 {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(243, 235, 235);
+    padding: 80PX 100px;
+}
+
+.line4A {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.line4A span {
+    font-size: 15px;
+}
+
+.line4A h1 {
+    margin: 15px;
+}
+
+.line4A div {
+    width: 80px;
+    height: 2px;
+    background-color: red;
+    margin: auto;
+}
+
+.line4B {
+    display: flex;
+}
+
+.line4B img {
+    width: 630PX;
+    height: 250px;
+}
+.line4B img:hover{
+    width: 670PX;
+    height: 280PX;
+}
+
+.B {
+    margin-left: 50px;
+}
+
+.line4B h2 {
+    margin-bottom: 30px;
+}
+
+.p1 {
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.p2 {
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.line4B input {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border-radius: 5PX;
+    border: none;
+    color: white;
+}
+.line4B input:hover{
+    background-color: black;
+}
+.line4C {
+    display: flex;
+    margin-left: 550PX;
+    margin-top: 100PX;
+}
+
+.line4C div {
+    width: 8PX;
+    height: 8PX;
+    background-color: red;
+    border-radius: 4px;
+    margin-right: 15PX;
+}
+
+.line5 {
+    width: 90%;
+    height: 1300PX;
+    margin: auto;
+}
+
+.line5A {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.line5A span {
+    font-size: 15px;
+}
+
+.line5A h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+.line5A div {
+    width: 80px;
+    height: 2px;
+    background-color: red;
+    margin: auto;
+}
+
+.line5 img {
+    width: 100%;
+    height: 190px;
+}
+.line5 img:hover{
+    height: 200PX;
+}
+.A {
+    display: flex;
+}
+
+.a {
+    margin: 15px;
+}
+
+.a1 {
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.a1 p {
+    color: gray;
+    margin: 10px;
+    line-height: 30px;
+    border-top: 1px solid rgb(175, 175, 175);
+}
+
+.a h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.a h4 {
+    margin-bottom: 20px;
+}
+
+.A p {
+    color: gray;
+    line-height: 30px;
+}
+
+.line6 {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(243, 235, 235);
+    padding: 70PX 50PX;
+}
+
+.line6A {
+    margin-bottom: 80px;
+}
+
+.line6A h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+.line6A div {
+    width: 80px;
+    height: 2px;
+    background-color: red;
+    margin: auto;
+}
+
+.line6 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-bottom: 20PX;
+    margin-top: 20PX;
+}
+
+.line6B {
+    display: flex;
+    
+}
+
+.a6 {
+    width: 300px;
+    border: 1px solid rgb(175, 175, 175);
+    text-align: center;
+    padding: 10px;
+    margin:auto;
+}
+.a6:hover{
+    background-color: red;
+}
+.a6 h4 {
+    margin: 20px;
+}
+
+.a6 p {
+    color: gray;
+    line-height: 30PX;
+}
+.a6 p:hover {
+    color: white;
+}
+.a7 {
+    width: 300px;
+    border: 1px solid rgb(175, 175, 175);
+    text-align: center;
+    padding: 10px;
+    margin:auto;
+}
+.a7:hover{
+    background-color: red;
+}
+.a7 h4 {
+    margin: 20px;
+}
+
+.a7 p {
+    color: gray;
+    line-height: 30PX;
+}
+.a7 p:hover {
+    color: white;
+}
+.line7 {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.line7 img {
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.line8 {
+    width: 100%;
+    height: 550px;
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+    padding: 0px 100px;
+    padding-top: 100px;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+}
+
+.a h2 {
+    font-family: none;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.a p {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.a span {
+    line-height: 30px;
+}
+
+.container h3 {
+    font-weight: 100;
+    padding-bottom: 40px;
+}
+
+.b {
+    margin-right: 30px;
+}
+
+.b li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.b a{
+    text-decoration: none;
+    color: gray;
+}
+.b a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+.c div {
+    display: flex;
+}
+
+.c li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.c a{
+    text-decoration: none;
+    color: gray;
+}
+.c a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  
+.c ul {
+    margin-right: 30px;
+}
+
+.d p {
+    line-height: 30px;
+    color: gray;
+}
+
+.d input {
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: gray;
+    box-shadow: 0px 0PX 10PX rgb(201, 158, 158);
+}
+
+footer {
+    border-top: 1px solid gray;
+    margin-top: 100px;
+    display: flex;
+}
+
+footer p {
+    margin-top: 20px;
+    color: gray;
+}
+
+footer img {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: 630px;
+    margin-left: 10PX;
+    margin-top: 18px;
+}
+
+.img1 {
+    width: 19px;
+    height: 19px;
+    margin-left: 10PX;
+    margin-top: 18px;
+}
+
+@media screen and (max-width : 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .line1 {
+        height: 750px;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    nav h2 {
+        position: relative;
+        left: 10px;
+        margin-top: 15px;
+    }
+
+    nav ul {
+        margin-top: 25px;
+        margin-left: 50PX;
+    }
+
+    nav li {
+        padding-left: 10px;
+    }
+
+    .line1 h1 {
+        margin-top: 50px;
+
+    }
+
+    .line1 p {
+        margin-top: 20px;
+        line-height: 20px;
+    }
+
+    .line1 input {
+        width: 120PX;
+        height: 30PX;
+        margin-left: 40%;
+        margin-top: 30px;
+    }
+
+    .line2 {
+        width: 80%;
+        height: 200px;
+        position: relative;
+        bottom: 375px;
+        box-shadow: 0px 0px 10px gray;
+        padding: 20px 30px;
+    }
+
+    .line2A {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    select {
+        margin-left: 20px;
+        width: 100px;
+        height: 30px;
+        position: relative;
+        top: 35px;
+        right: 90px;
+    }
+
+    .line2B input {
+        width: 100PX;
+        height: 40PX;
+        position: relative;
+        left: 400PX;
+        bottom: 110PX;
+    }
+
+    .line3 {
+        display: block;
+        width: 80%;
+        height: 1050px;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .line4 {
+        height: 900px;
+    }
+
+    .line4B {
+        display: block;
+    }
+
+    .line4B img {
+        width: 500PX;
+        height: 200px;
+        margin-bottom: 20PX;
+    }
+
+    .line5 {
+        height: 4900PX;
+    }
+
+    .line5 img {
+        width: 100%;
+        height: 290px;
+    }
+
+    .A {
+        display: block;
+    }
+
+    .line6 {
+        height: 1400px;
+        padding: 50PX 0PX;
+    }
+
+    .line6B {
+        display: block;
+    }
+
+    .a6 {
+        width: 400px;
+    }
+
+    .a7 {
+        width: 400px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .line8 {
+        height: 1150px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .d input {
+        width: 360px;
+    }
+
+    footer img {
+        position: relative;
+        left: 5px;
+    }
+}
